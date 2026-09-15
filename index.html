@@ -1,76 +1,131 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shown Park — Electrical Engineering</title>
+
+  <title>Shown's Engineering Notes</title>
 
   <style>
     body {
-      max-width: 800px;
-      margin: 80px auto;
+      max-width: 760px;
+      margin: 70px auto;
       padding: 0 24px;
+
       font-family: Arial, sans-serif;
       line-height: 1.7;
       color: #111;
     }
 
     h1 {
-      font-size: 42px;
-      margin-bottom: 5px;
+      margin-bottom: 10px;
     }
 
-    .subtitle {
+    .description {
       color: #666;
       margin-bottom: 60px;
     }
 
     h2 {
       margin-top: 50px;
-      border-bottom: 1px solid #ddd;
       padding-bottom: 10px;
+      border-bottom: 1px solid #ddd;
     }
 
-    a {
+    .subject {
+      margin: 25px 0;
+    }
+
+    .subject a {
+      font-size: 20px;
+      font-weight: bold;
       color: #111;
+      text-decoration: none;
+    }
+
+    .subject a:hover {
+      text-decoration: underline;
+    }
+
+    .subject p {
+      margin-top: 4px;
+      color: #777;
+      font-size: 14px;
     }
   </style>
+
 </head>
+
 
 <body>
 
-  <h1>Shown Park</h1>
-  <p class="subtitle">
-    Electrical & Electronics Engineering Portfolio
+  <h1>Shown's Engineering Notes</h1>
+
+  <p class="description">
+    고려사이버대학교 전기전자공학을 공부하며<br>
+    내가 이해한 내용을 내 언어로 기록합니다.
   </p>
 
-  <h2>About</h2>
-  <p>
-    전기전자공학을 공부하며 단순히 암기한 내용을 기록하는 것이 아니라,
-    직접 이해하고 계산하고 검증한 결과를 남깁니다.
-  </p>
 
-  <h2>Study</h2>
+  <h2>2026-2</h2>
 
-  <h3>C Programming</h3>
-  <p>
-    C 언어 기초부터 전기전자공학 문제 해결을 위한 프로그래밍까지 공부합니다.
-  </p>
 
-  <h3>Circuit Theory</h3>
-  <p>
-    전압, 전류, 저항 및 회로 해석의 기초를 공부하고 검증합니다.
-  </p>
+  <div class="subject">
+    <a href="physics.html">
+      대학일반물리
+    </a>
 
-  <h3>Digital Logic</h3>
-  <p>
-    디지털 논리회로의 기본 원리와 동작을 공부합니다.
-  </p>
+    <p>
+      University Physics
+    </p>
+  </div>
 
-  <h2>Projects</h2>
-  <p>
-    Projects coming soon.
-  </p>
+
+  <div class="subject">
+    <a href="communication.html">
+      정보통신개론
+    </a>
+
+    <p>
+      Introduction to Information & Communication
+    </p>
+  </div>
+
+
+  <div class="subject">
+    <a href="engineering-design.html">
+      창의공학설계
+    </a>
+
+    <p>
+      Creative Engineering Design
+    </p>
+  </div>
+
+
+  <div class="subject">
+    <a href="computer.html">
+      컴퓨터학개론
+    </a>
+
+    <p>
+      Introduction to Computer Science
+    </p>
+  </div>
+
+
+  <div class="subject">
+    <a href="programming.html">
+      프로그래밍 기초와 실습(C언어)
+    </a>
+
+    <p>
+      C Programming Fundamentals
+    </p>
+  </div>
+
 
 </body>
+
 </html>
